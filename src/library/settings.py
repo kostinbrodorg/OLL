@@ -27,7 +27,7 @@ SECRET_KEY = '55o@26b1$!ghpj466#5r3jf6ob1v6x=5v)j8=644l-6*995+6e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['10.11.12.3']
 
 
 # Application definition
@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': 'kb_library',  # change this to your database name
         'USER': 'kb_library',  # change this to your databse username
         'PASSWORD': 'kb_LibrarY42',  # change this to your database password
-        'HOST': '127.0.0.1',
+        'HOST': '10.11.12.2',
         'PORT': '5432',
     }
 }
