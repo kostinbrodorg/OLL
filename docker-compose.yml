@@ -1,0 +1,66 @@
+version: '2'
+
+services:
+
+  postgresql-01:
+
+    container_name: postgresql-lib
+
+    build:
+      context: .
+      dockerfile: DockerfilePostgreSQL
+
+    hostname: postgresql-lib
+
+    networks:
+
+      lib_net:
+        ipv4_address: 10.11.12.2
+
+    restart: always
+
+    volumes:
+      - ./local/postgresql-lib:/var/lib/postgresql/data/
+
+    environment:
+      POSTGRES_DB: kb_library
+      POSTGRES_USER: kb_library
+      POSTGRES_PASSWORD: kb_LibrarY42 
+
+  library-app:
+
+    container_name: library-app
+
+    build:
+
+      context: .
+      dockerfile: DockerfileLib
+
+    ports:
+      - "8888:8888"
+
+    depends_on:
+      - postgresql-01
+
+    hostname: library-app
+
+    networks:
+
+      lib_net:
+        ipv4_address: 10.11.12.3
+
+    restart: always
+
+networks:
+
+  lib_net:
+
+    driver: bridge
+
+    ipam:
+
+      driver: default
+      config:
+
+        - subnet: 10.11.12.0/29
+          gateway: 10.11.12.1

@@ -1,0 +1,9 @@
+Django==1.10.5
+django-countries==4.0
+djangorestframework==3.5.3
+django-countries==4.0
+django-material==0.11.0
+django-stdimage==2.4.0
+Pillow==4.0.0
+psycopg2==2.6.2
+pylint==1.6.4

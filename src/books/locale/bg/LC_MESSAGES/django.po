@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-14 15:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: books/apps.py:7 books/models.py:64
+msgid "Books"
+msgstr "Книги"
+
+#: books/models.py:21
+msgid "Book Name"
+msgstr "Име на книгата"
+
+#: books/models.py:22
+msgid "Author Name"
+msgstr "Автор на книгата"
+
+#: books/models.py:23
+msgid "Book counts"
+msgstr "Брой копия"
+
+#: books/models.py:26
+msgid "Release date"
+msgstr "Издадена на"
+
+#: books/models.py:31
+msgid "Release date BG"
+msgstr "Издадена в България"
+
+#: books/models.py:35
+msgid "Publisher"
+msgstr "Издател"
+
+#: books/models.py:39
+msgid "Created by"
+msgstr "Създадена от"
+
+#: books/models.py:44
+msgid "Created on"
+msgstr "Създадена на"
+
+#: books/models.py:50
+msgid "Updated by"
+msgstr "Променена от"
+
+#: books/models.py:54
+msgid "Updated on"
+msgstr "Променена на"
+
+#: books/models.py:55
+msgid "ISBN"
+msgstr ""
+
+#: books/models.py:56
+msgid "Genres"
+msgstr "Жанр"
+
+#: books/models.py:57
+msgid "Description"
+msgstr "Описание"
+
+#: books/models.py:58
+msgid "Is Available?"
+msgstr "Свободна ли е?"
+
+#: books/models.py:59
+msgid "Is Active?"
+msgstr "Активна ли е?"
+
+#: books/models.py:63
+msgid "Book"
+msgstr "Книгa"
+
+#, fuzzy
+#~| msgid "Books"
+#~ msgid "books"
+#~ msgstr "Книги"
